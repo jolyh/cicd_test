@@ -44,8 +44,8 @@ jobs:
       # ...install the Zendesk CLI
       - name: Install zcli
         run: npm i @zendesk/zcli -g
-      - name: Validate the app
-        run: zcli apps:validate .
+      - name: Deploy the app
+        run:  zcli apps:update
       # These next three actions will run if the commit message contains the word in each 'if' condition. If your commit message contains all three words, each action will run. Basically, don't use this workflow in a production environment!
       - name: Bump patch version 
         if: contains(github.event.head_commit.message, 'patch')
