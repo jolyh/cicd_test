@@ -57,8 +57,8 @@ jobs:
       # Finally, we need to push the changes to our repository. Since GitHub Actions run in a separate environment, the above changes won't update your repo without this.
       - name: Update repo 
         run: |
-             git config --global user.email "[your GH email]"
-             git config --global user.name "[your name]"
+             git config --global user.email "arnaud.joly24@outlook.com"
+             git config --global user.name "jolyh"
              
              git add -A
              git commit -m "Commit message
