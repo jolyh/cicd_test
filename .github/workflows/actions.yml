@@ -61,5 +61,5 @@ jobs:
              git config --global user.name "jolyh"
              
              git add -A
-             git commit -m "Commit message
+             git commit -m "Commit message"
              git push
