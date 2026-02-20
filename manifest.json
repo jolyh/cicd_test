@@ -9,11 +9,19 @@
   "location": {
     "support": {
       "ticket_sidebar": {
-        "url": "assets/iframe.html",
+        "url": "assets/index.html",
         "flexible": true
       }
     }
   },
   "version": "1.3.0",
-  "frameworkVersion": "2.0"
+  "frameworkVersion": "2.0",
+  "parameters": [
+    {
+      "name": "shared_secret",
+      "type": "text",
+      "secure": true
+    }
+  ]
+
 }
